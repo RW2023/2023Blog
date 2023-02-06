@@ -1,3 +1,15 @@
+$(document).ready(function () {
+  $(".media-left img").hover(
+    function () {
+      $(this).animate({ width: "128px", height: "128px" }, 500);
+    },
+    function () {
+      $(this).animate({ width: "64px", height: "64px" }, 500);
+    }
+  );
+});
+
+// end of mouse hover code and start of image setup
 const images = document.querySelectorAll("img[data-src]");
 
 function loadImage(img) {
