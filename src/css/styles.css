@@ -1,15 +1,15 @@
-html{
-  background-color: #1A120B;
+html {
+  background-color: #1a120b;
 }
 
-.well{
+.well {
   color: black;
-  background-color: #E5E5CB;
+  background-color: #e5e5cb;
 }
 
-.well img{
-  width: 400px;
-  height: 400px;
+.well img {
+  max-width: 25em;
+  max-height: 25em;
   border: 1px solid black;
 }
 
@@ -86,9 +86,9 @@ body {
 }
 
 #aboutMe + img {
-   height: 100px;
-   width: 100px;
-   object-fit: cover;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
 }
 
 /* .media.media-expanded .media-body {
