@@ -50,3 +50,23 @@ section {
 body {
   font-family: "Source Code Pro", monospace;
 }
+
+/* .text-title{
+  
+} */
+
+.text-title {
+  font-size: 1.2rem;
+}
+@media (max-width: 400px) {
+  .text-title {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .text-title {
+    font-size: 0.8rem;
+  }
+}
+
+
