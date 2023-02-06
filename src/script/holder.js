@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $(".media-left img").hover(
     function () {
-      $(this).animate({ width: "120px", height: "120px" }, 600);
+      $(this).animate({ width: "120px", height: "128px" }, 400);
     },
     function () {
-      $(this).animate({ width: "64px", height: "64px" }, 600);
+      $(this).animate({ width: "64px", height: "64px" }, 400);
     }
   );
 });
